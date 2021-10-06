@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="18dp"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/green"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/green" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/skin"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/skin" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/black"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/black" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/red"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/red" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/blue"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/blue" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/grey"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/grey" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/yellow"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/yellow" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/pink"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/pink" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/orange"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/orange" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/tomato"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/tomato" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/fuchsia"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/fuchsia" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/wheat"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/wheat" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/violet"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/violet" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/crimson"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/crimson" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/tan"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/tan" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/chocolate"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/chocolate" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/silver"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/silver" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/brown"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/brown" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/sky_blue"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/sky_blue" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/gray"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/gray" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/olive"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/olive" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/purple"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/purple" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/maroon"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/maroon" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/indigo"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/indigo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/aqua"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/aqua" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/lime"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/lime" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/teal"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/teal" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/dark_green"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/dark_green" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/navy"
+             
+            android:onClick="pickerColor"
+            android:tag="@color/navy" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/color_menu"
+            android:backgroundTint="@color/white"
+            android:onClick="pickerColor"
+            android:tag="@color/white" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

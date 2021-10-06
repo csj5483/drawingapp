@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/ib_small_brush"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/normal_brush"
+        android:contentDescription="image"
+      />
+
+    <ImageView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/ib_small_medium_brush"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/normal_brush"
+        android:contentDescription="image"
+
+        />
+    <ImageView
+        android:id="@+id/ib_medium_brush"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/normal_brush"
+        android:contentDescription="image"
+       />
+    <ImageView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/ib_a_medium_brush"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/normal_brush"
+        android:contentDescription="image"
+        />
+
+    <ImageView
+        android:id="@+id/ib_large_brush"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/normal_brush"
+        android:contentDescription="image"
+      />
+</LinearLayout>
